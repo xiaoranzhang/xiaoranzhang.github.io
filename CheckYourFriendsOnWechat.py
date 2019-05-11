@@ -367,6 +367,7 @@ def main():
 		print '初始化失败'
 		return
 
+
 	MemberList = webwxgetcontact()
 
 	MemberCount = len(MemberList)
