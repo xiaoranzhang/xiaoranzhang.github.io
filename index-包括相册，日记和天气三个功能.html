@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!这是段你永远也不会发现的文字。我想在这里表达我对你最深沉的爱。————Shawn>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <meta charset="UTF-8">
+ 
+ <title>那个女孩叫"夏天"</title>
+<link rel="stylesheet" type="text/css" href="css/zzsc.css" media="all">
+</head>
+<body>
+
+<div id="layer1" style="position:absolute; width:100%; z-index:-1">
+   <img src="images/01.jpg" height="100%" width="100%" />
+</div>
+
+<br /><br /><br /><br />
+<br />
+给我最爱的女孩，Summer : )<br /><br /><br />
+<br /><br /><br /><br />
+
+<!-- 代码 开始 -->
+<div class="m-artlist m-artlist-2"> 
+  <div class="item">
+    <div class="img">
+      <a href="Weather/Weather.html" target="_top">
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <img src="images/Weather.jpg">
+      </a>
+    </div>
+  </div>
+  
+  <div class="item">
+    <div class="img">
+      <a href="Letter/404_Letter.html" target="_top">
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <img src="images/Letter.jpg">
+      </a>
+    </div>
+  </div>
+   
+  <div class="item">
+    <div class="img">
+      <a href="gallery_index/gallery.html" target="_top">
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <span class="bor">
+        </span>
+        <img src="images/AlbumGallery.jpg">
+      </a>
+    </div>
+  </div>
+  
+</div>
+
+
+<!-- 代码 结束 -->
+<div style="clear:both;"></div>
+<div style="text-align:center;margin:50px 0">
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+<p align="center"> 距离网站关闭时间还有： </p>
+
+
+
+<DIV id="CountMsg" class="HotDate"> 
+<span id="t_d">00天</span> 
+<span id="t_h">00时</span> 
+<span id="t_m">00分</span> 
+<span id="t_s">00秒</span> 
+</DIV> 
+<script type="text/javascript"> 
+function getRTime(){ 
+var EndTime= new Date('2017/1/1 00:00:00'); //截止时间 
+var NowTime = new Date(); 
+var t =EndTime.getTime() - NowTime.getTime(); 
+/*var d=Math.floor(t/1000/60/60/24); 
+t-=d*(1000*60*60*24); 
+var h=Math.floor(t/1000/60/60); 
+t-=h*60*60*1000; 
+var m=Math.floor(t/1000/60); 
+t-=m*60*1000; 
+var s=Math.floor(t/1000);*/
+ 
+var d=Math.floor(t/1000/60/60/24); 
+var h=Math.floor(t/1000/60/60%24); 
+var m=Math.floor(t/1000/60%60); 
+var s=Math.floor(t/1000%60); 
+ 
+document.getElementById("t_d").innerHTML = d + "天"; 
+document.getElementById("t_h").innerHTML = h + "时"; 
+document.getElementById("t_m").innerHTML = m + "分"; 
+document.getElementById("t_s").innerHTML = s + "秒"; 
+} 
+setInterval(getRTime,1000); 
+</script> 
+
+
+</div>
+<p align="center"> <a href="https://github.com/xiaoranzhang"> ©All rights reserved  Shawn_张</a>  <a href="https://jingyi.space/Bing.html"> 我最喜欢的Bing壁纸</a></p>
+
+</body>
+</html>
